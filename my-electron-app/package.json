@@ -1,0 +1,28 @@
+{
+  "name": "my-electron-app",
+  "version": "1.0.0",
+  "description": "Hello World!",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "nodemon --exec electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/McKeeJerry-FS/my-electron-app.git"
+  },
+  "author": "Jerry McKee Jr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/McKeeJerry-FS/my-electron-app/issues"
+  },
+  "homepage": "https://github.com/McKeeJerry-FS/my-electron-app#readme",
+  "devDependencies": {
+    "electron": "^31.3.0",
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  }
+}
